@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anta&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+</head>
+
+<body class="bg-blue-950">
+    <div class="short mt-56 items-center justify-center flex">
+        <span class="font-[Anta] text-white text-4xl md:text-[80px]">Url Shortner</span>
+    </div>
+        <div class="items-center justify-center flex gap-4 md:mt-5 md:text-[30px]">
+        <span class="font-[Anta] text-white text-l">Simplify Your Links.</span>
+    </div>
+    <!-- Form -->
+        <div class="mx-16 bg-white w-96 flex h-10 mt-9 items-center md:w-[480px] rounded-lg shadow-md justify-evenly md:mx-[560px]">
+            <input type="text" class="url w-[340px] md:w-[420px] h-9" id="url">
+            <span class="material-symbols-outlined h-9 rounded-md w-auto p-1.5 hover:cursor-pointer active:cursor-pointer" id="shortbtn">
+                navigate_next
+                </span>
+    </div>
+    <div  id="copy" class="bg-white invisible w-96 md:w-[480px] flex p-1 mx-16 h-10 mt-9 items-start rounded-lg shadow-md text-start justify-evenly md:mx-[560px]">
+        <span class="url w-[340px] h-9 mt-1 md:w-[420px]" id="surl"></span>
+        <span class="material-symbols-outlined h-9 rounded-md w-8 p-1.5 hover:cursor-pointer active:cursor-pointer" id="cpybtn">
+                content_copy  
+            </span>
+</div>
+    <script src="script.js"></script>
+</body>
+
+
+</html>
